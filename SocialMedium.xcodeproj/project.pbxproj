@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		1F14806C26FA12D400EE0966 /* SocialMediumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F14806B26FA12D400EE0966 /* SocialMediumApp.swift */; };
-		1F14806E26FA12D400EE0966 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F14806D26FA12D400EE0966 /* ContentView.swift */; };
+		1F14806E26FA12D400EE0966 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F14806D26FA12D400EE0966 /* Login.swift */; };
 		1F14807026FA12D400EE0966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F14806F26FA12D400EE0966 /* Assets.xcassets */; };
 		1F14807326FA12D400EE0966 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F14807226FA12D400EE0966 /* Preview Assets.xcassets */; };
+		1F14807A26FA146400EE0966 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F14807926FA146400EE0966 /* LoginModel.swift */; };
+		1F14807C26FA1C9900EE0966 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F14807B26FA1C9900EE0966 /* Constants.swift */; };
+		1F14808226FA1F0800EE0966 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F14808126FA1F0800EE0966 /* Home.swift */; };
+		1F14808926FA203600EE0966 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F14808826FA203600EE0966 /* SettingsModel.swift */; };
+		1F14808B26FA20CA00EE0966 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F14808A26FA20CA00EE0966 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F14806826FA12D400EE0966 /* SocialMedium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialMedium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F14806B26FA12D400EE0966 /* SocialMediumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediumApp.swift; sourceTree = "<group>"; };
-		1F14806D26FA12D400EE0966 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1F14806D26FA12D400EE0966 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		1F14806F26FA12D400EE0966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F14807226FA12D400EE0966 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F14807926FA146400EE0966 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		1F14807B26FA1C9900EE0966 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1F14808126FA1F0800EE0966 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		1F14808826FA203600EE0966 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		1F14808A26FA20CA00EE0966 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,10 @@
 			isa = PBXGroup;
 			children = (
 				1F14806B26FA12D400EE0966 /* SocialMediumApp.swift */,
-				1F14806D26FA12D400EE0966 /* ContentView.swift */,
+				1F14808326FA1F0F00EE0966 /* Home */,
+				1F14807D26FA1EB800EE0966 /* Login */,
+				1F14808426FA1F1B00EE0966 /* Settings */,
+				1F14808526FA1F2800EE0966 /* Resources */,
 				1F14806F26FA12D400EE0966 /* Assets.xcassets */,
 				1F14807126FA12D400EE0966 /* Preview Content */,
 			);
@@ -65,6 +78,41 @@
 				1F14807226FA12D400EE0966 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F14807D26FA1EB800EE0966 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1F14806D26FA12D400EE0966 /* Login.swift */,
+				1F14807926FA146400EE0966 /* LoginModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1F14808326FA1F0F00EE0966 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1F14808126FA1F0800EE0966 /* Home.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		1F14808426FA1F1B00EE0966 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1F14808A26FA20CA00EE0966 /* Settings.swift */,
+				1F14808826FA203600EE0966 /* SettingsModel.swift */,
+			);
+			name = Settings;
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1F14808526FA1F2800EE0966 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F14807B26FA1C9900EE0966 /* Constants.swift */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +185,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F14806E26FA12D400EE0966 /* ContentView.swift in Sources */,
+				1F14806E26FA12D400EE0966 /* Login.swift in Sources */,
+				1F14807A26FA146400EE0966 /* LoginModel.swift in Sources */,
+				1F14808226FA1F0800EE0966 /* Home.swift in Sources */,
 				1F14806C26FA12D400EE0966 /* SocialMediumApp.swift in Sources */,
+				1F14808B26FA20CA00EE0966 /* Settings.swift in Sources */,
+				1F14808926FA203600EE0966 /* SettingsModel.swift in Sources */,
+				1F14807C26FA1C9900EE0966 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +329,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +358,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
